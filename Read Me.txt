@@ -1,0 +1,17 @@
+<----- Barre de recherche animé ----->
+
+Inspiré par Darkcode sur YouTube.
+
+Ceci est seulement la structure HTML et le style CSS d'une barre de recherche. Pour qu'elle soit fonctionnelle et pour
+pouvoir obtenir des résultats, il faut mettre le index.html en index.php. Ce changement n'affectera pas votre code car HTML
+et PHP s'entendent très bien ensemble. Il faudra intégrer du code en php et connecter votre code à une base de donnée MySQL.
+
+Barre de recherche animé 100% personnalisable.
+
+Pour créer un site web en php sur votre ordinateur, vous devez installer un serveur WAMP ou MAMP ou autre suivant votre
+ordinateur. Je vous laisse aller regarder des tutos sur YouTube.
+
+
+Code publié par kylianjoff sur github.com.
+
+Contact : Twitter: @juliakylian | Instagram: @ kylianj.off | Discorde: kylianj.off # 6721

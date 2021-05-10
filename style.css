@@ -1,0 +1,46 @@
+body {			/*Valeurs du corps de la structure html*/
+	margin: 0;
+	padding: 0;
+	background: #e84118;			/*Fond d'écran de la page*/
+}
+.search-box {			/*Valeurs de la boîte de recherche*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #2f3640;		/*Fond d'écran de la boîte de recherche*/
+	height: 40px;		/*Hauteur de 40 pixels*/
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-box:hover > .search-txt {			/*Lorsque la sourie passe par dessus la boîte de recherche, la barre de texte prend les valeurs suivantes*/
+	width: 240px;		/*Lorsque la sourie passe sur la boîte de recherche, la barre de texte prend une largeur de 240 pixels*/
+	padding: 0 6px;
+}
+.search-box:hover > .search-btn {			/*Lorsque la sourie passe par dessus la boîte de recherche, le bouton de recherche prend les valeurs suivantes*/
+	background: white;		/*Lorsque la sourie est sur la boîte de recherche, le fond d'écran du bouton devient blanc*/
+}
+.search-btn {		/*Valeurs par défault du bouton de recherche*/
+	color: #e84118;		/*Couleur de l'îcone dans le bouton*/
+	float: right;		/*Placé à droite*/
+	width: 40px;		/*Hauteur de 40 pixels*/
+	height: 40px;		/*Largeur de 40 pixels*/
+	border-radius: 50%;
+	background: #2f3640;		/*Fond d'écran du bouton*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;		/*Temps de transition de son changement d'état*/
+}
+.search-txt {			/*Valeurs par défault de la barre de texte*/
+	border: none;		/*Aucun bord*/
+	background: none;		/*Aucun fond d'écran*/
+	outline: none;
+	float: left;		/*Placé à gauche de la boîte de recherche*/
+	padding: 0;
+	color: white;		/*Couleur du texte tapé dans la barre*/
+	font-size: 16px;
+	transition: 0.4s;		/*Temps de transition de son changement d'état*/
+	line-height: 40px;		/*Taille du texte*/
+	width: 0px;		/*Largeur*/
+}
